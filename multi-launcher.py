@@ -18,7 +18,7 @@ while True:
     os.system('cls' if os.name=='nt' else 'clear')
     print("\n\n----MULTI-LAUNCHER----\n created by @dlordmdia")
     time.sleep(1)
-    answer1 = input("\nQue quieres hacer?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\nl- Spammer\nm- Web Cracker\n\ndet- para Detalles\nx- to Exit\n- ")
+    answer1 = input("\nQue quieres hacer?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\nl- Spammer\nm- Web Cracker\nn- Simple Spammer\n\ndet- para Detalles\nx- to Exit\n- ")
     if answer1 == "a":
         play = True
         wrong = True
@@ -863,54 +863,78 @@ while True:
         else:
             print("Gracias")
     
+    elif answer1 == "n":
+        while True:
+            os.system('cls' if os.name=='nt' else 'clear')
+            print("\n--SIMPLE-SPAMMER--\n\n")
+            time.sleep(1)
+            os.system('cls' if os.name=='nt' else 'clear')
+            print("ctr + z to stop programm\n\n")
+            what = input("Qué quieres escribir?\n- ")
+            much = input ("Cuantas veces?\n- ")
+
+            output = ""
+
+            for i in range(int(much)):
+                output += what + " "
+
+            pyperclip.copy(output)
+            os.system('cls' if os.name=='nt' else 'clear')
+            print("El Spam se ha copiado a tu portapapeles\nctr + v para pegar el mensaje largo")
+            time.sleep(2)
+    
     elif answer1 == "x":
         os.system('cls' if os.name=='nt' else 'clear')
         break
 
     elif answer1 == "det":
         os.system('cls' if os.name=='nt' else 'clear')
-        det = input("\nDe que quieres tener detalles?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\nl- Spammer\nm- Web Cracker\n\nx- to Exit\n- ")
+        det = input("\nDe que quieres tener detalles?\n\na- Guess the Number\nb- Complify Calculator\nc- Anime Hack\nd- QR Code Launcher\ne- Bitcoin Miner\nf- Dlord Texts\ng- Dlord Media Launcher\nh- Password Launcher\ni- Seconds Timer\nj- Lista de Compras\nk- Media Launcher\nl- Spammer\nm- Web Cracker\nn- Simple Spammer\n\nx- to Exit\n- ")
         
         if det == "a":
-            input("Un Juego randomizado donde tienes que adivinar el número y te da la ventaja de saber si nu nombre es MAYOR QUE o MENOR QUE el primer input.\n/ENTER\ para salir\- ")
+            input("Un Juego randomizado donde tienes que adivinar el número y te da la ventaja de saber si nu nombre es MAYOR QUE o MENOR QUE el primer input.\n/ENTER\ para salir\n- ")
         
         if det == "b":
-            input("Calculadora compleja con muchas configuraciones!\n/ENTER\ para salir\- ")
+            input("Calculadora compleja con muchas configuraciones!\n/ENTER\ para salir\n- ")
         
         if det == "c":
-            input("Descarga todo tipo de Películas Anime! \n/ENTER\ para salir\- ")
+            input("Descarga todo tipo de Películas Anime! \n/ENTER\ para salir\n- ")
 
         if det == "d":
-            input("Crea un Código QR! \n/ENTER\ para salir\- ")
+            input("Crea un Código QR! \n/ENTER\ para salir\n- ")
         
         if det == "e":
-            input("Mina Bitcoin Claimeando earnings de Páginas web Gratis! \n/ENTER\ para salir\- ")
+            input("Mina Bitcoin Claimeando earnings de Páginas web Gratis! \n/ENTER\ para salir\n- ")
         
         if det == "f":
-            input("Lee todas las letras de las Canciones de Dlord Rap! \n/ENTER\ para salir\- ")
+            input("Lee todas las letras de las Canciones de Dlord Rap! \n/ENTER\ para salir\n- ")
         
         if det == "g":
-            input("Abre todas las Plataformas de Dlord! \n/ENTER\ para salir\- ")
+            input("Abre todas las Plataformas de Dlord! \n/ENTER\ para salir\n- ")
 
         if det == "h":
-            input("Crea y Comprueba una contraseña 100% segura")
+            input("Crea y Comprueba una contraseña 100% segura! \n/ENTER\ para salir\n- ")
         
         if det == "i":
-            input("Temporizador medido en Segundos!\n/ENTER\ para salir\- ")
+            input("Temporizador medido en Segundos!\n/ENTER\ para salir\n- ")
         
         if det == "j":
-            input("Crea una lista de Compras con articulos, precios, calculadora, etc! \n/ENTER\ para salir\- ")
+            input("Crea una lista de Compras con articulos, precios, calculadora, etc! \n/ENTER\ para salir\n- ")
 
         if det == "k":
-            input("Abre redes sociales sin tener huellas de Surf por el internet! \n/ENTER\ para salir\- ")
+            input("Abre redes sociales sin tener huellas de Surf por el internet! \n/ENTER\ para salir\n- ")
         
         if det == "l":
-            input("Elige la cantidad y el qué quieres spammear de forma simple y segura!\n/ENTER\ para salir\- ")
+            input("Elige la cantidad y el qué quieres spammear de forma simple y segura!\n/ENTER\ para salir\n- ")
 
         if det == "m":
-            input("Rompe una página Web que funcionepor Servidor con ese carácter especial. \n/ENTER\ para salir\- ")
+            input("Rompe una página Web que funcionepor Servidor con ese carácter especial. \n/ENTER\ para salir\n- ")
+
+        if det == "n":
+            input("Un Spammer de un mesaje copiado a tu portapapeles! \n/ENTER\ para salir\n- ")
 
     else:
         os.system('cls' if os.name=='nt' else 'clear')
         print("No encuentro nada correspondiente a tu búsqueda. INTÉNTALO DE NUEVO!")
         time.sleep(2)
+
