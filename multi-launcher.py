@@ -710,11 +710,10 @@ while True:
 
         # Inicio
         time.sleep(2)
-
+        os.system('cls' if os.name=='nt' else 'clear')
         # Seleccionar Red Social
 
         while not decidido:
-            os.system('cls' if os.name=='nt' else 'clear')
             respuesta1 = input("Que Red Social quieres abrir?:\ntype h for help\n- ")
 
             if respuesta1 == "h":
