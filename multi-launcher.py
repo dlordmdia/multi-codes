@@ -62,6 +62,9 @@ while True:
         os.system('cls' if os.name=='nt' else 'clear')
 
     elif answer1 == "b":
+        # Imports
+
+        # Variables
         decidido = False
         seguir = "y"
 
@@ -96,7 +99,7 @@ while True:
                 break
             elif start == "e":
                 print("Gracias por usar Complify Calculator\n--Creado por @dlordmdia--\n")
-                exit()
+                break
             elif start == "l":
                 print("Redirigiendo a Classroom...\n")
                 time.sleep(1)
